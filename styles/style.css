@@ -1,0 +1,102 @@
+.Fira-sans {
+    font-family: Fira Sans;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* common styles */
+.webpage-style {
+    background: rgb(245, 245, 245);
+}
+
+.common-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding: 24px 160px 24px 160px;
+}
+
+.nav-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sign-in-button {
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.banner-content {
+    max-width: 680px;
+}
+
+.banner-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 117px 0px 16px 60px;
+
+}
+
+.banner-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px 10px 24px 60px;
+}
+
+.banner-button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin: 14px 0px 117px 60px;
+    padding: 17px 34px 17px 34px;
+
+}
+
+.banner-image {
+    margin: 80px 60px 80px 0px;
+}
