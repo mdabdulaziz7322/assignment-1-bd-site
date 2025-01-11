@@ -16,6 +16,33 @@
     margin: 0 auto;
 }
 
+.section-gap {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.common-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.common-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 /* nav styles */
 
 nav {
@@ -99,4 +126,116 @@ nav {
 
 .banner-image {
     margin: 80px 60px 80px 0px;
+}
+
+/* vision area styles */
+.vision-area-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area {
+    width: 410.67px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    margin: 0px 5px;
+
+}
+.first-vision-color {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.second-vision-color {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.third-vision-color {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+
+.vision-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.vision-image {
+    margin: 10px 0px 0px 0px;
+}
+
+.area-title {
+    margin-bottom: 0px;
+}
+
+.area-description {
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+
+.area-button1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border: none;
+
+}
+
+.area-button2 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.area-button3 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    border: none;
 }
