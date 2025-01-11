@@ -40,7 +40,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-    text-align: left;
+    
 }
 
 .common-button {
@@ -391,4 +391,53 @@ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
 .donate-now{
     padding: 17px 34px 17px 34px;
     margin: 32px 0px;
+}
+/* subscription section styles */
+.subscribe{
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.subscription-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.subscribe-section-title{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.subscribe-section-description{
+    margin: 0px 300px 20px 300px;
+    text-align: center;
+}
+.subscribe-section-container{
+    display: flex;
+    margin-top: 0px;
+    
+}
+.subscribe-email{
+    width: 600px;
+    height: 30px;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+padding: 18px 40px 18px 40px;
+border: none;
+}
+.subscribe-button{
+    border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+}
+.slogan{
+    margin-top: 0px;
 }
