@@ -25,7 +25,7 @@
     text-align: left;
 }
 
-body button:hover{
+body button:hover {
     cursor: pointer;
 }
 
@@ -145,6 +145,42 @@ nav {
     margin: 80px 60px 80px 0px;
 }
 
+/* pillars Style */
+.pillars-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    gap: 12px;
+
+}
+
+.pillars-area-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+
+}
+
+.pillars {
+    width: 302px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    gap: 12px;
+}
+
+.pillar-background {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
 /* vision area styles */
 .vision-area-container {
     display: flex;
@@ -260,8 +296,7 @@ nav {
 /* quote section styles */
 .quote-section {
     width: 1280px;
-    border: 1px	Inside
-    rgba(14, 14, 14, 0.15);
+    border: 1px Inside rgba(14, 14, 14, 0.15);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -269,20 +304,27 @@ nav {
     border-radius: 16px;
     margin-top: 32px;
     padding: 48px 24px 48px 24px;
-
     background: rgb(255, 255, 255);
-    background: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: 30px 30px ;
+
 }
-.qoutes{
+
+.quotes {
     margin: 10px 18px 12px 20px;
 }
-.name{
+
+.name {
     margin: 5px 0px 0px 20px;
 }
-.quote-description{
+
+.pera-container {
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.quote-description {
     margin: 0px 0px 0px 20px;
+
 }
 
 /* news area styles */
@@ -364,15 +406,18 @@ nav {
     background: rgb(255, 255, 255);
     padding: 40px;
 }
-.donate-1st-amount:hover{
+
+.donate-1st-amount:hover {
     background-color: rgba(84, 144, 245, 0.2);
     cursor: pointer;
 }
-.donate-3rd-amount:hover{
+
+.donate-3rd-amount:hover {
     background-color: rgba(84, 144, 245, 0.2);
     cursor: pointer;
 }
-.donate-4th-amount:hover{
+
+.donate-4th-amount:hover {
     background-color: rgba(84, 144, 245, 0.2);
     cursor: pointer;
 }
