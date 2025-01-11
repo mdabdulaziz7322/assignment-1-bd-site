@@ -25,6 +25,10 @@
     text-align: left;
 }
 
+body button:hover{
+    cursor: pointer;
+}
+
 .common-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
@@ -359,6 +363,18 @@ nav {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 40px;
+}
+.donate-1st-amount:hover{
+    background-color: rgba(84, 144, 245, 0.2);
+    cursor: pointer;
+}
+.donate-3rd-amount:hover{
+    background-color: rgba(84, 144, 245, 0.2);
+    cursor: pointer;
+}
+.donate-4th-amount:hover{
+    background-color: rgba(84, 144, 245, 0.2);
+    cursor: pointer;
 }
 
 .donate-2nd-amount {
