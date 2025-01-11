@@ -42,17 +42,18 @@
     letter-spacing: 0%;
     text-align: left;
 }
-.common-button{
-color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-padding: 13px 26px 13px 26px;
-border-radius: 8px;
-background: rgb(0, 106, 80);
-border: none;
+
+.common-button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
 }
 
 /* nav styles */
@@ -184,7 +185,6 @@ nav {
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 0px;
 
 }
@@ -259,9 +259,11 @@ nav {
     gap: 12px;
     align-items: center;
 }
-.news-description{
+
+.news-description {
     margin-bottom: 32px;
 }
+
 .news-container {
     display: flex;
     justify-content: space-between;
@@ -271,25 +273,122 @@ nav {
     background: rgb(255, 255, 255);
     padding: 48px;
 }
-.news-area-title{
-color: rgba(14, 14, 14, 0.8);
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
-margin: 12px 0px;
+
+.news-area-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
 
 }
+
 .news-image {
     border-radius: 24px;
 }
-.news-area-description{
+
+.news-area-description {
     margin-top: 0px;
 }
-.news-button{
+
+.news-button {
     margin: 15px 0px;
 }
-.news-container{
+
+.news-container {
     margin-bottom: 32px;
+}
+
+/* donate section styles */
+.donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-section-description {
+    text-align: center;
+}
+
+.donate-amount-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.donate-1st-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.donate-2nd-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.donate-3rd-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.donate-4th-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.other-amount{
+    width: 1032px;
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+border: none;
+text-align: center;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+}
+.donate-now{
+    padding: 17px 34px 17px 34px;
+    margin: 32px 0px;
 }
